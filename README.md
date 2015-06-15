@@ -11,21 +11,13 @@ LearningMaterials
 + [The Django Book](http://djangobook.py3k.cn/2.0/)
 
 
-##git删除
-+ 1、从你的资料库中清除文件
 
-        git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch projects/Moon.mp3' --prune-empty       --tag-name-filter cat -- --all
-    
-+ 2、 推送我们修改后的repo
-
-        git push origin master --force
-
-+ 3、清理和回收空间
-
-        rm -rf .git/refs/original/
-
-        git reflog expire --expire=now --all
-    
-        git gc --prune=now
-    
-        git gc --aggressive --prune=now
+name  |   dpi  | dp     |px      |   sp   |    mm  |   in | pt   
+--------- |------- |------- |------- |------- |------- |------|------
+ ldpi	  | 120 | 1.00 | 0.75 | 1.00 | 0.16 | 0.01 | 0.45 
+ mdpi	  | 160 | 1.00 | 1.00 | 1.00 | 0.16 | 0.01 | 0.45 
+ tvdpi	  | 213 | 1.00 | 1.33 | 1.00 | 0.16 | 0.01 | 0.45 
+ hdpi	  | 240 | 1.00 | 1.50 | 1.00 | 0.16 | 0.01 | 0.45 
+ xhdpi	  | 320 | 1.00 | 2.00 | 1.00 | 0.16 | 0.01 | 0.45 
+ xxhdpi  | 480 | 1.00 | 3.00 | 1.00 | 0.16 | 0.01 | 0.45 
+ xxxhdpi | 640 | 1.00 | 4.00 | 1.00 | 0.16 | 0.01 | 0.45
